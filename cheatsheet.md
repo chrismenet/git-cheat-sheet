@@ -33,3 +33,5 @@
 > git merge features/branchName // merge branchName to current branch
 
 > git push // push current branch to main
+
+# Fetch, Pull & Push
