@@ -42,5 +42,43 @@
 
 > git push // send updates to the repository
 
-test
-test2
+# Pull request
+
+Easiest way: in the portal :)
+
+> gh pr create --base main --head features/1234-new-killing-feature --title '[#1] Initialize repo' --body 'More details on the PR that solves issue #1'
+
+# Addons
+
+## Branch protection
+
+Allow to control reviewers, force pull request ...
+
+## CODEOWNERS file
+
+Define default policy for reviewers
+
+## Issues & pull request templates
+
+Create a .github/ISSUE_TEMPLATE/Bug.md file
+
+# Git flow
+
+## Trunk based development
+
+Work directly on main -> not necessary a good option
+
+## Git flow
+
+Main branch, realease branch & features branches
+
+## GitHub flow
+
+Main branch & features branches -> allow quick deliveries
+
+## Open Source / Inner Source model
+
+- Fork a project (local copy of the project in our repository)
+- Update and create a PR
+- PR can be done on the original project
+
